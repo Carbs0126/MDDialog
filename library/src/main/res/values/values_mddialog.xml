@@ -1,0 +1,37 @@
+<resources>
+
+    <dimen name="md_dialog_title_height">64dp</dimen>
+    <dimen name="md_dialog_title_imageview_height">56dp</dimen>
+    <dimen name="md_dialog_title_imageview_margin_left">8dp</dimen>
+    <dimen name="md_dialog_title_imageview_margin_right">8dp</dimen>
+    <dimen name="md_dialog_title_textview_textsize">20dp</dimen>
+    <dimen name="md_dialog_title_textview_padding">16dp</dimen>
+    <dimen name="md_dialog_title_button_margin_right">8dp</dimen>
+    <dimen name="md_dialog_buttons_height">64dp</dimen>
+    <dimen name="md_dialog_bottom_button_padding">8dp</dimen>
+    <dimen name="md_dialog_bottom_button_textsize">16dp</dimen>
+    <dimen name="md_dialog_content_textview_padding_left">16dp</dimen>
+    <dimen name="md_dialog_content_textview_height">56dp</dimen>
+    <dimen name="md_dialog_content_textview_textsize">18dp</dimen>
+    <dimen name="md_dialog_margin">12dp</dimen>
+
+    <color name="md_dialog_green_light">#ff4bd1c8</color>
+    <color name="md_dialog_green_dark">#ff2ca99f</color>
+    <color name="md_dialog_gray_dark">#99666666</color>
+    <color name="md_dialog_trans">#00000000</color>
+    <color name="md_dialog_divider_dark">#66999999</color>
+    <color name="md_dialog_divider_light">#44999999</color>
+    <color name="md_dialog_black_light">#aa111111</color>
+    
+    <style name="dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+</resources>

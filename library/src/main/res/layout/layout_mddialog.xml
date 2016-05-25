@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/md_dialog_title_height" >
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="@dimen/md_dialog_title_imageview_height"
+            android:layout_height="@dimen/md_dialog_title_imageview_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/md_dialog_title_imageview_margin_left"
+            android:layout_marginRight="@dimen/md_dialog_title_imageview_margin_right"
+            android:scaleType="centerInside"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_title"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/md_dialog_title_textview_padding"
+            android:singleLine="true"
+            android:text="示例"
+            android:textColor="@color/md_dialog_green_dark"
+            android:textSize="@dimen/md_dialog_title_textview_textsize" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/md_dialog_margin"
+            android:layout_marginRight="@dimen/md_dialog_margin"
+            android:background="@color/md_dialog_divider_dark" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/md_dialog_buttons_height"
+        android:layout_marginLeft="@dimen/md_dialog_margin"
+        android:layout_marginRight="@dimen/md_dialog_margin" >
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/md_dialog_title_button_margin_right"
+            android:gravity="center"
+            android:padding="@dimen/md_dialog_bottom_button_padding"
+            android:text="确定"
+            android:textColor="@color/md_dialog_green_dark"
+            android:textSize="@dimen/md_dialog_bottom_button_textsize" />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btn_yes"
+            android:gravity="center"
+            android:padding="@dimen/md_dialog_bottom_button_padding"
+            android:text="取消"
+            android:textColor="@color/md_dialog_gray_dark"
+            android:textSize="@dimen/md_dialog_bottom_button_textsize" />
+    </RelativeLayout>
+
+</LinearLayout>
