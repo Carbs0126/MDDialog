@@ -27,7 +27,7 @@ this MDDialog has many interesting configurations such as :
  first add dependences
 ```
   dependencies {
-    //TODO compile 'cn.carbs.android:SegmentControlView:1.0.0'
+    compile 'cn.carbs.android:MDDialog:1.0.0'
   }
 ```
  how to build the MDDialog in java code
