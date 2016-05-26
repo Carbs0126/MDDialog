@@ -1,7 +1,7 @@
 package cn.carbs.android.library;
 
 /**
- * Created by Rick.Wang on 2016/5/25.
+ * Created by Carbs.Wang on 2016/5/25.
  */
 
 import android.app.Dialog;
