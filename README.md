@@ -1,4 +1,6 @@
 # MDDialog
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MDDialog-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3822)
+
 ## Abstract
 a material designed style dialog, can add operation of content view, set messages, respond to onclick of messages items and so on
 
