@@ -115,7 +115,7 @@
 ```
 
 
-#English
+# English
 
 ## Abstract
 a material designed style dialog, can add operation of content view, set messages, respond to onclick of messages items and so on
