@@ -127,10 +127,6 @@ this `MDDialog` has many interesting configurations such as :
   4. you can customize the corner's radius of `MDDialog`.
   5. `MDDialog` has the pressed effect of each messages item, and the shape of pressed effect is the same as item's shape
   6. two ways to set the `MDDialog` width, the ratio of screen width, or the exact dimension<br>
-  <br>
-  Author:Carbs.Wang
-  <br>
-  Email:yeah0126#yeah.net
 
 ## Screenshot
 <center>
