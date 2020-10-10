@@ -17,8 +17,6 @@
 5. `MDDialog`自动为每个`message`提供了按下效果，且按下效果会随着此`item`是否具有圆角而改变；<br>
 6. 可以通过两种方式设置`MDDialog`的宽度，使用宽度占整个屏幕宽度的比值，或使用是精确的尺寸；<br>
 <br>
-  Author:Carbs.Wang<br>
-  Email:yeah0126#yeah.net<br>
 
 ## 截图
 <center>
@@ -229,7 +227,7 @@ two mode to create MDDialog
 
 ## License
 
-    Copyright 2016 Carbs.Wang (MDDialog)
+    Copyright 2016 Carbs (MDDialog)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
